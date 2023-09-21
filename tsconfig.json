@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+
+    "jsx": "react-jsx",
+
+    "declaration": false,
+    "sourceMap": true,
+
+    "isolatedModules": true,
+    
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "alwaysStrict": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "typeRoots": [
+      "node_modules/@types",
+      "./types"
+    ]
+  },
+  "include": [
+    "src",
+    "declarations.d.ts", 
+    "index.d.ts"
+  ],
+  "exclude": [
+    "node_modules", 
+    "webpack.config.ts"
+  ],
+  "types": ["babel__template"]
+}
