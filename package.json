@@ -26,7 +26,7 @@
     "react": "^18.2.0",
     "react-datepicker": "^4.18.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "resolve-url-loader": "^5.0.0",
     "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",
@@ -39,7 +39,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "webpack --mode=production react-scripts start",
+    "build": "react-scripts build",
     "local": "bash ./start.sh local",
     "dev": "webpack-dev-server --config=webpack.config.ts --progress --mode=development --hot --open",
     "test": "react-scripts test",
