@@ -39,7 +39,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "webpack --mode=production",
+    "build": "webpack --mode=production react-scripts start",
     "local": "bash ./start.sh local",
     "dev": "webpack-dev-server --config=webpack.config.ts --progress --mode=development --hot --open",
     "test": "react-scripts test",
