@@ -5,7 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>App para telemedicina pensado e projetado por Igor Almeida.</p>
+        <p>
+          App para telemedicina pensado e projetado por 
+          <a href="https://github.com/kijibr">Igor Almeida.</a>
+        </p>
       </header>
     </div>
   );
